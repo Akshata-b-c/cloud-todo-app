@@ -1,16 +1,58 @@
-# React + Vite
+# Cloud-Based To-Do List Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Project Overview
+A cloud-based task management web application built with React and Firebase. Users can sign in, create tasks, edit tasks, mark tasks as completed, and delete tasks. Tasks are stored in Cloud Firestore and synchronized in real time.
 
-Currently, two official plugins are available:
+## Features
+- Email and password registration and login
+- Google sign-in
+- Add new tasks
+- Edit existing tasks
+- Mark tasks as completed or incomplete
+- Delete tasks
+- Real-time updates using Cloud Firestore
+- User-specific task access
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Technologies Used
+- React
+- Vite
+- JavaScript
+- Firebase Authentication
+- Cloud Firestore
+- CSS
 
-## React Compiler
+## Installation and Setup
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+1. Clone the repository:
 
-## Expanding the ESLint configuration
+   ```bash
+   git clone https://github.com/Akshata-b-c/cloud-todo-app.git
+   ```
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+2. Open the project directory:
+
+   ```bash
+   cd cloud-todo-app
+   ```
+
+3. Install dependencies:
+
+   ```bash
+   npm install
+   ```
+
+4. Configure your Firebase web app settings in `src/firebase.js`. Enable Email/Password and Google sign-in in Firebase Authentication and configure Cloud Firestore security rules.
+
+5. Start the development server:
+
+   ```bash
+   npm run dev
+   ```
+
+6. Open the local URL shown in the terminal.
+
+## Live Demo
+Coming soon.
+
+## Author
+Akshata B C
