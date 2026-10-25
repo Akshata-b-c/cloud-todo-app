@@ -52,7 +52,7 @@ A cloud-based task management web application built with React and Firebase. Use
 6. Open the local URL shown in the terminal.
 
 ## Live Demo
-Coming soon.
+[Open Live Application](https://cloud-todo-app-nine.vercel.app/)
 
 ## Author
 Akshata B C
